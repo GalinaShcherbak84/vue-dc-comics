@@ -22,12 +22,13 @@ export default {
 
 <style scoped lang="scss">
 @import'@/styles/vars';
+@import '@/styles/utilities';
     .section{
+        position: relative;
         background: $colorLightGrey;
+        z-index: 3;
     }
     .container{
-        width: 80%;
-        margin: 0 auto;
         padding: 20px 0;
         display: flex;
         align-items: center;
@@ -39,6 +40,7 @@ export default {
         font-size: 16px;
         color:white;
         background: $colorLightGrey;
+        cursor: pointer;
     }
     nav{
         display: flex;
@@ -51,6 +53,7 @@ export default {
         img{
             margin-left: 14px;
             widows: 20px;
+            cursor: pointer;
         }
         
     }

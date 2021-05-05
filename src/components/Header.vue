@@ -72,10 +72,9 @@ export default {
 
 <style scoped lang="scss">
 @import'@/styles/vars';
+@import '@/styles/utilities';
     .container{
-        height: 100px;
-        width: 80%;
-        margin:0 auto;
+        height: 80px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -91,7 +90,7 @@ export default {
     li{
         list-style: none;
         margin:0 10px;
-        line-height: 100px;
+        line-height: 80px;
         
     }
     .active{
