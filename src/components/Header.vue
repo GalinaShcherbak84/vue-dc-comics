@@ -70,7 +70,8 @@ export default {
 }
 </script>
 
-<style scoped>
+<style scoped lang="scss">
+@import'@/styles/vars';
     .container{
         height: 100px;
         width: 80%;
@@ -94,12 +95,12 @@ export default {
         
     }
     .active{
-        border-bottom: 4px solid #0282f9;
-        color:#0282f9;
+        border-bottom: 4px solid $colorBlue;
+        color:$colorBlue;
     }
     a{
         text-decoration: none;
-        color:#1c1c1c;
+        color:$colorGrey;
         font-size: 16px;
         display: flex;
     }
