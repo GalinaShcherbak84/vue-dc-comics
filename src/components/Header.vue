@@ -93,14 +93,16 @@ export default {
         line-height: 80px;
         
     }
-    .active{
-        border-bottom: 4px solid $colorBlue;
-        color:$colorBlue;
-    }
+
     a{
         text-decoration: none;
         color:$colorGrey;
         font-size: 16px;
         display: flex;
+    }
+    a:hover,
+    .active{
+        color:$colorBlue;
+        border-bottom: 6px solid $colorBlue;
     }
 </style>
